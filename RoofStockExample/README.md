@@ -72,3 +72,18 @@ We have used community edition of Intellij from https://www.jetbrains.com/idea/
 ##### 5. Add Scala plugin to IDE 
 On Startup IntelliJ gives an option to add Scala plugin. You can check it and install on launching IntelliJ for the first time.
 Otherwise, as soon as you add "apply plugin: "scala" in your build.gradle, IntelliJ prompts you to download scala plugin.
+
+
+##### Other instruction
+Might have to download and install scala sdk. Remember it giving some issues during a walkthrough
+
+##### To run the tests
+Import gradle.build file in your IDE (I use IntelliJ)
+
+Gradle task in this particular example project is designed to run all tests in simulations folder.
+To run all tests execute
+ 
+'gradle clean gatling'
+
+ 
+ 
